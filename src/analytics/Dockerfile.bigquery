@@ -1,0 +1,8 @@
+FROM fedora:26
+
+RUN dnf install -y libgo
+
+COPY bigquery /usr/local/bin/
+
+ENTRYPOINT ["/usr/local/bin/bigquery"]
+CMD [ "/queue/input" ]

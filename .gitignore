@@ -1,0 +1,6 @@
+src/analytics/bigquery
+src/analytics/vendor
+src/github.com
+bin
+pkg
+src/analytics/Gopkg.lock
